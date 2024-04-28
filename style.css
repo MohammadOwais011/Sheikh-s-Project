@@ -1,76 +1,145 @@
 * {
-    font-family: poppins;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: poppins;
+    scroll-behavior: smooth;
+}
+body{
+    background: #213a42;
+}
+html{
+  
+  overflow-x: hidden;
+}
+a {
+    font: 1em poppins;
+}
+.nav-item a{
+    color: #fff;
 }
 
-.container {
-    display: grid;
+.nav-item a:hover {
+    text-decoration: underline 2px lightseagreen;
+    color: #fff;
+    transition-delay: 2s;
+    transition: ease-in;
+}
+.header1{
+    position: fixed;
+}
+
+
+.btn:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid;
+}
+.btn{
+    background-color: lightseagreen;
+    border-color: lightseagreen;
+}
+
+nav {
+    border-bottom: 0.1px solid #686868;
+}
+.navbar-brand{
+    color: #fff;
+    font-size: 2vw;
+    padding-left: 90px;
+}
+.navbar-brand span{
+    color: lightseagreen;
+    padding-left: 0px;
+
+}
+.navbar-brand:hover{
+    color: #fff;
+}
+
+
+.hero1{
     width: 100%;
-    height: 100vh;
-    place-items: center;
-    position: absolute;
-}
-
-.calculator {
-    width: 380px;
-    height: 360px;
-    background-color: rgb(29, 26, 32);
-    border: 1px solid #000;
-    padding-left: 25px;
-    border-radius: 20px;
-    position: relative;
+    display: flex;
+    top: 0%;
+    left: 0%;
+    justify-content: space-between;
+    align-items: center;
     
-
+}
+.child1{
+    width: 55%;
+    padding: 90px 100px;
+    color: #fff;
+}
+.child1 span{
+color: lightseagreen;
+}
+.child2{
+ width: 45%;
+}
+.child2 img{
+   
 }
 h1{
-    text-align: center;
-    
+    font-size: 5vw;
 }
-span{
-    color: #f79f10;
+h3{
+    font-size: 2vw;
+}
+p{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 1.1vw;
+}
+.btn2{
+    padding: 10px 10px;
+    background-color: lightseagreen;
+    border-color: lightseagreen;
+    color: #fff;
+    border-radius: 7px;
+}
+.btn2:hover{
+    background: transparent;
+}
+.content1{
+    width: 100%;
+    display: flex;
+    margin-top: 200px;
+}
+.childs1{
+    width: 50%;
+}
+.childs2{
+    width:50% ;
+    color: #fff;
+}
+.childs2 h1{
+    font-size: 3vw;
+    text-align: center;
+    text-decoration: underline;
+}
+.childs1 img{
+    padding-left: 60px;
 }
 
-input{
-    align-items: center;
-    justify-content: center;
-    margin: 13px;
-    font-size: 35px;
-    width: 83%;
-    color: #000;
-}
-input[type='text']{
-    text-align: end;
-}
 
-button {
-    padding: 20px;
-    text-align: center;
-}
 
-.btn {
-    width: 70px;
-    height: 50px;
-    text-align: center;
-    border-radius: 20px;
-    font-size: 18px;
-    font-weight: 550;
-    background-color: #8f8887;
-    outline: none;
-    margin: 3px;
-    border: none;
-    transition: .4s;
-}
-#stylish{
-    background-color: #babcbe;
-}
-#colorful{
-    background-color: #f79f10;
-}
-#big{
-   width: 150px; 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media querries */
 
 
 
